@@ -116,7 +116,7 @@ namespace spn2
             memcpy(dst, block.data_, seek0_size);
             if (seek1_size)
             {
-                memcpy(dst, block.data_ + seek0_size, seek1_size);
+                memcpy(dst + seek0_size, begin_, seek1_size);
             }
             return true;
         }
