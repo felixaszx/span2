@@ -133,5 +133,4 @@ namespace spn2
         seeks[1].size_ = b.size_ - seeks[0].size_;
         return seeks;
     }
-
 }; // namespace spn2
