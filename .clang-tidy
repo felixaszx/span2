@@ -1,0 +1,8 @@
+Checks: "
+        performance-*,
+        modernize-*,
+        -modernize-use-trailing-return-type
+        "
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+FormatStyle:     none
